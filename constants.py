@@ -1,0 +1,3 @@
+FLAG = 8
+HIDDEN = 9
+BOMB = -1
