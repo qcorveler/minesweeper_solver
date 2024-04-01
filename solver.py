@@ -40,7 +40,7 @@ class Solver() :
 
         print(f"{self.gameboard.secret_gb}")
     
-    def directResolution(self, depth : int) :
+    def directResolution(self, depth = 1) :
         if depth == 0 :
             return False
         for x in range(self.gameboard.dim) :
